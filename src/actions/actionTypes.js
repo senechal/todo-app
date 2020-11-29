@@ -1,0 +1,7 @@
+export const ADD_ITEM = 'TODO//ADD_ITEM';
+export const REMOVE_ITEM = 'TODO//REMOVE_ITEM';
+export const CHANGE_ITEM = 'TODO//CHANGE_ITEM';
+export const TOGGLE_DONE = 'TODO//TOGGLE_DONE';
+export const TOOGLE_ALL_DONE = 'TODO//TOOGLE_ALL_DONE';
+export const START_EDITING = 'TODO//START_EDITING';
+export const END_EDITING = 'TODO//END_EDITING';

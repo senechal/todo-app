@@ -1,12 +1,19 @@
 {
-    "extends": ["airbnb-base"],
+    "parser": "babel-eslint",
+    "extends": ["airbnb", "airbnb/hooks"],
     "env": {
-      "react": true,
       "node": true,
       "es6": true,
-      "browser": true
+      "browser": true,
+      "jest": true
     },
     "rules": {
-      "no-console": "off"
+      "no-console": "off",
+      "import/prefer-default-export": "off",
+      "max-len": ["error", 120, 2],
+      "react/jsx-props-no-spreading": "off"
+    },
+    "settings": {
+      "import/resolver": "webpack"
     }
   }

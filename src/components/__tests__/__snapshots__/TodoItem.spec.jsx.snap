@@ -1,0 +1,380 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing TodoItem should render correctly with changed done state 1`] = `
+.c0 {
+  color: #4d4d4d;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 8px;
+  height: 40px;
+  border-bottom: 1px solid #e6e6e6;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0:last-child:not(:nth-child(-n+2)) {
+  border-bottom: 0px;
+}
+
+.c1 {
+  margin-right: 8px;
+}
+
+.c4 {
+  background-color: #fff;
+  width: 24px;
+  height: 24px;
+  padding: 2.4px 0;
+  font-size: 14px;
+  vertical-align: -1px;
+  border-radius: 4px;
+  border: 1px solid #1890ff;
+  cursor: pointer;
+  margin-left: auto;
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.c4:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.c5 {
+  background-color: #fff;
+  border-color: #e6e6e6;
+  color: #e6e6e6;
+}
+
+.c5 svg {
+  fill: #e6e6e6;
+}
+
+.c3 {
+  color: #4d4d4d font-size:16px;
+  height: 20px;
+  box-sizing: border-box;
+  width: calc(100% - 62px);
+}
+
+.c3:hover {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.c2 {
+  color: #4d4d4d;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #4d4d4d;
+  font-size: 16px;
+  height: 20px;
+  box-sizing: border-box;
+  display: none;
+  width: calc(100% - 62px);
+}
+
+.c6 {
+  max-width: 16px;
+  max-height: 16px;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <input
+      checked=""
+      class="c1"
+      data-testid="todo-item-checkbox"
+      type="checkbox"
+    />
+    <input
+      class="c2"
+      data-testid="inline-edit-input"
+      type="text"
+      value="value"
+    />
+    <div
+      class="c3"
+      data-testid="inline-edit-item-content"
+    >
+      value
+    </div>
+    <button
+      class="c4 c5"
+      data-testid="todo-item-delete-button"
+      title="Delete"
+    >
+      <svg
+        class="c6"
+        data-file-name="SvgDelete"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Testing TodoItem should render correctly with changed value and id 1`] = `
+.c0 {
+  color: #4d4d4d;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 8px;
+  height: 40px;
+  border-bottom: 1px solid #e6e6e6;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0:last-child:not(:nth-child(-n+2)) {
+  border-bottom: 0px;
+}
+
+.c1 {
+  margin-right: 8px;
+}
+
+.c4 {
+  background-color: #fff;
+  width: 24px;
+  height: 24px;
+  padding: 2.4px 0;
+  font-size: 14px;
+  vertical-align: -1px;
+  border-radius: 4px;
+  border: 1px solid #1890ff;
+  cursor: pointer;
+  margin-left: auto;
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.c4:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.c5 {
+  background-color: #fff;
+  border-color: #e6e6e6;
+  color: #e6e6e6;
+}
+
+.c5 svg {
+  fill: #e6e6e6;
+}
+
+.c3 {
+  color: #4d4d4d font-size:16px;
+  height: 20px;
+  box-sizing: border-box;
+  width: calc(100% - 62px);
+}
+
+.c3:hover {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.c2 {
+  color: #4d4d4d;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #4d4d4d;
+  font-size: 16px;
+  height: 20px;
+  box-sizing: border-box;
+  display: none;
+  width: calc(100% - 62px);
+}
+
+.c6 {
+  max-width: 16px;
+  max-height: 16px;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <input
+      class="c1"
+      data-testid="todo-item-checkbox"
+      type="checkbox"
+    />
+    <input
+      class="c2"
+      data-testid="inline-edit-input"
+      type="text"
+      value="new value"
+    />
+    <div
+      class="c3"
+      data-testid="inline-edit-item-content"
+    >
+      new value
+    </div>
+    <button
+      class="c4 c5"
+      data-testid="todo-item-delete-button"
+      title="Delete"
+    >
+      <svg
+        class="c6"
+        data-file-name="SvgDelete"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Testing TodoItem should render correctly with required props 1`] = `
+.c0 {
+  color: #4d4d4d;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 8px;
+  height: 40px;
+  border-bottom: 1px solid #e6e6e6;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.c0:last-child:not(:nth-child(-n+2)) {
+  border-bottom: 0px;
+}
+
+.c1 {
+  margin-right: 8px;
+}
+
+.c4 {
+  background-color: #fff;
+  width: 24px;
+  height: 24px;
+  padding: 2.4px 0;
+  font-size: 14px;
+  vertical-align: -1px;
+  border-radius: 4px;
+  border: 1px solid #1890ff;
+  cursor: pointer;
+  margin-left: auto;
+  background-color: #1890ff;
+  color: #fff;
+}
+
+.c4:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.c5 {
+  background-color: #fff;
+  border-color: #e6e6e6;
+  color: #e6e6e6;
+}
+
+.c5 svg {
+  fill: #e6e6e6;
+}
+
+.c3 {
+  color: #4d4d4d font-size:16px;
+  height: 20px;
+  box-sizing: border-box;
+  width: calc(100% - 62px);
+}
+
+.c3:hover {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.c2 {
+  color: #4d4d4d;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #4d4d4d;
+  font-size: 16px;
+  height: 20px;
+  box-sizing: border-box;
+  display: none;
+  width: calc(100% - 62px);
+}
+
+.c6 {
+  max-width: 16px;
+  max-height: 16px;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <input
+      class="c1"
+      data-testid="todo-item-checkbox"
+      type="checkbox"
+    />
+    <input
+      class="c2"
+      data-testid="inline-edit-input"
+      type="text"
+      value="value"
+    />
+    <div
+      class="c3"
+      data-testid="inline-edit-item-content"
+    >
+      value
+    </div>
+    <button
+      class="c4 c5"
+      data-testid="todo-item-delete-button"
+      title="Delete"
+    >
+      <svg
+        class="c6"
+        data-file-name="SvgDelete"
+      />
+    </button>
+  </div>
+</div>
+`;

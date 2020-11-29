@@ -1,0 +1,237 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing InlineEditInput should blur from input on press enter 1`] = `
+.c1 {
+  color: #4d4d4d font-size:16px;
+  height: 20px;
+  box-sizing: border-box;
+  display: none;
+  width: calc(100% - 62px);
+}
+
+.c1:hover {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.c0 {
+  color: #4d4d4d;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #4d4d4d;
+  font-size: 16px;
+  height: 20px;
+  box-sizing: border-box;
+  width: calc(100% - 62px);
+}
+
+<div>
+  <input
+    class="c0"
+    data-testid="inline-edit-input"
+    type="text"
+    value="value"
+  />
+  <div
+    class="c1"
+    data-testid="inline-edit-item-content"
+  >
+    value
+  </div>
+</div>
+`;
+
+exports[`Testing InlineEditInput should render correctly and call onEndEdit after user blur from input 1`] = `
+.c1 {
+  color: #4d4d4d font-size:16px;
+  height: 20px;
+  box-sizing: border-box;
+  width: calc(100% - 62px);
+}
+
+.c1:hover {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.c0 {
+  color: #4d4d4d;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #4d4d4d;
+  font-size: 16px;
+  height: 20px;
+  box-sizing: border-box;
+  display: none;
+  width: calc(100% - 62px);
+}
+
+<div>
+  <input
+    class="c0"
+    data-testid="inline-edit-input"
+    type="text"
+    value="value"
+  />
+  <div
+    class="c1"
+    data-testid="inline-edit-item-content"
+  >
+    value
+  </div>
+</div>
+`;
+
+exports[`Testing InlineEditInput should render correctly with props 1`] = `
+.c1 {
+  color: #4d4d4d font-size:16px;
+  height: 20px;
+  box-sizing: border-box;
+  width: calc(100% - 62px);
+}
+
+.c1:hover {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.c0 {
+  color: #4d4d4d;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #4d4d4d;
+  font-size: 16px;
+  height: 20px;
+  box-sizing: border-box;
+  display: none;
+  width: calc(100% - 62px);
+}
+
+<div>
+  <input
+    class="c0"
+    data-testid="inline-edit-input"
+    type="text"
+    value="value"
+  />
+  <div
+    class="c1"
+    data-testid="inline-edit-item-content"
+  >
+    value
+  </div>
+</div>
+`;
+
+exports[`Testing InlineEditInput should render correctly without props 1`] = `
+.c1 {
+  color: #4d4d4d font-size:16px;
+  height: 20px;
+  box-sizing: border-box;
+  width: calc(100% - 62px);
+}
+
+.c1:hover {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.c0 {
+  color: #4d4d4d;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #4d4d4d;
+  font-size: 16px;
+  height: 20px;
+  box-sizing: border-box;
+  display: none;
+  width: calc(100% - 62px);
+}
+
+<div>
+  <input
+    class="c0"
+    data-testid="inline-edit-input"
+    type="text"
+    value=""
+  />
+  <div
+    class="c1"
+    data-testid="inline-edit-item-content"
+  />
+</div>
+`;
+
+exports[`Testing InlineEditInput should render correctly, focus on input and call onStartEdit after user click on content 1`] = `
+.c1 {
+  color: #4d4d4d font-size:16px;
+  height: 20px;
+  box-sizing: border-box;
+  display: none;
+  width: calc(100% - 62px);
+}
+
+.c1:hover {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.c0 {
+  color: #4d4d4d;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #4d4d4d;
+  font-size: 16px;
+  height: 20px;
+  box-sizing: border-box;
+  width: calc(100% - 62px);
+}
+
+<div>
+  <input
+    class="c0"
+    data-testid="inline-edit-input"
+    type="text"
+    value="value"
+  />
+  <div
+    class="c1"
+    data-testid="inline-edit-item-content"
+  >
+    value
+  </div>
+</div>
+`;
+
+exports[`Testing InlineEditInput should render correctly, focus on input and call onStartEdit if value is empty without and not editing 1`] = `
+.c1 {
+  color: #4d4d4d font-size:16px;
+  height: 20px;
+  box-sizing: border-box;
+  display: none;
+  width: calc(100% - 62px);
+}
+
+.c1:hover {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.c0 {
+  color: #4d4d4d;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #4d4d4d;
+  font-size: 16px;
+  height: 20px;
+  box-sizing: border-box;
+  width: calc(100% - 62px);
+}
+
+<div>
+  <input
+    class="c0"
+    data-testid="inline-edit-input"
+    type="text"
+    value=""
+  />
+  <div
+    class="c1"
+    data-testid="inline-edit-item-content"
+  />
+</div>
+`;
