@@ -1,5 +1,7 @@
 # TODO APP
 
+You can check this app live in: [todo-app](https://5fc426a9613244a2acf964e0--relaxed-payne-592297.netlify.app/).
+
 ## Installation and Running
 
 First, you'll need to clone the repo:
