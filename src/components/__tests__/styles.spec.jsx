@@ -7,6 +7,7 @@ describe('Testing renders for style components', () => {
   const { ItemContent, Input, ...uncontrolledComponents } = styles;
 
   describe('Uncontrolled components', () => {
+    // Because this components doesn't have any props to deal, we just need to render once.
     Object.keys(uncontrolledComponents).forEach((displayName) => {
       describe(displayName, () => {
         it('should render correctly', () => {

@@ -21,6 +21,9 @@ const InlineEditInput = ({
 
   const handleEdit = useCallback(() => {
     setEdit(true);
+
+    // Delay is used to deal with the race condition between the callback and the render.
+    // The delay time is set to zero to wait  for the least amount of time.
     delay(() => {
       focusComponent(inputRef);
       onStartEdit();
